@@ -6,9 +6,9 @@ class Application(tk.Frame):
     def __init__(self, master=None):
         super().__init__(master)
         self.pack()
-        self.create_widgets(master)
+        self.create_widgets()
 
-    def create_widgets(self, master):
+    def create_widgets(self):
         top_frame = ttk.Frame(self)
         top_frame.pack(side="top")
 
